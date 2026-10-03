@@ -23,8 +23,18 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.SalesInvoice.Form.DocumentForm</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="b0031053-e83d-47e0-a2ce-8261cfb13f1b">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="2502318a-8dbf-49f2-be36-5ec37a1f8db5">
     <producedTypes>
       <objectType typeId="bd1b803f-50c0-47dc-b802-c5ff1c05ecf6" valueTypeId="9d097551-6b3a-471d-aa84-ef28f7cee9d7"/>
